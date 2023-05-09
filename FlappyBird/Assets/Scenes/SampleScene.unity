@@ -2076,7 +2076,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 10
+  m_GravityScale: 4
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -2101,7 +2101,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 409340390}
-  _speed: 6
+  _speed: 14
   score: {fileID: 644550266}
   fishDied: {fileID: 1189365258, guid: 830e10e641e50684c9f93635a34c056b, type: 3}
   obstacleSpawner: {fileID: 510810908}

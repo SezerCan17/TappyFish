@@ -53,7 +53,7 @@ public class Fish : MonoBehaviour
             swim.Play();
             if (GameManager.gameStarted==false)
             {
-                rb2D.gravityScale = 1f;
+                rb2D.gravityScale = 3f;
                 rb2D.velocity = Vector2.zero;
                 rb2D.velocity = new Vector2(rb2D.velocity.x, _speed);
                 obstacleSpawner.InstantiateObstacle();
